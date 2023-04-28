@@ -1,0 +1,7 @@
+run = "exec main.java"
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+run = ["sh", "-c", "run java.main"]
